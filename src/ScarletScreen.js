@@ -5,6 +5,7 @@ import {
   View
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import { Fonts } from '../Fonts'
 
 const ScarletScreen = () => {
     return (
@@ -37,6 +38,7 @@ const ScarletScreen = () => {
       textAlign: 'center',
       margin: 10,
       color: '#ffffff',
+      fontFamily: Fonts.ProductSans
     },
   });
   
